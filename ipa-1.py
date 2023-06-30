@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[10]:
+# In[11]:
 
 
 #Item 1 - Savings
@@ -31,8 +31,8 @@
 
 def savings(gross_pay, tax_rate, expenses):
 
-    final_amount = (gross_pay - (int(gross_pay*tax_rate))) - expenses
-    return(final_amount)
+    final_amount = (gross_pay - (gross_pay*tax_rate)) - expenses
+    return(int(final_amount))
 
 
 # In[13]:
